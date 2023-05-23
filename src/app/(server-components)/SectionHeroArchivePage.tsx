@@ -8,7 +8,7 @@ import Image, { StaticImageData } from "next/image";
 export interface SectionHeroArchivePageProps {
   className?: string;
   listingType?: ReactNode;
-  currentPage: "Stays" | "Experiences" | "Cars" | "Flights";
+  currentPage:  "Flights";
   currentTab: SearchTab;
   rightImage?: StaticImageData;
 }
